@@ -1,6 +1,6 @@
 {
-    "name": "ispahbod/http-manager",
-    "description": "http-manager for Laravel Framework",
+    "name": "ispahbod/cookie-manager",
+    "description": "cookie-manager for Laravel Framework",
     "license": "MIT",
     "type": "library",
     "keywords": [
@@ -14,24 +14,22 @@
         "homepage": "https://github.com/ispahbod",
         "role": "Developer"
     }],
-    "homepage": "https://github.com/ispahbod/http-manager",
+    "homepage": "https://github.com/ispahbod/cookie-manager",
     "require": {
         "php": "^8.2",
-        "guzzlehttp/guzzle": "^7.8",
-        "illuminate/support": ">=6",
-        "symfony/dom-crawler": "^7.0"
+        "illuminate/support": ">=6"
     },
     "require-dev": {
         "phpunit/phpunit": "^8"
     },
     "autoload": {
         "psr-4": {
-            "Ispahbod\\HttpManager\\": "src"
+            "Ispahbod\\CookieManager\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ispahbod\\HttpManager\\Tests\\": "tests"
+            "Ispahbod\\CookieManager\\Tests\\": "tests"
         }
     },
     "config": {
